@@ -1,7 +1,9 @@
 using System;
 using Xunit;
+using FileWriterEvents.App;
+using FluentAssertions;
 
-namespace FileWriter.Tests
+namespace FileWriterEvents.Tests
 {
     public class UnitTest1
     {
@@ -9,6 +11,10 @@ namespace FileWriter.Tests
         public void Test1()
         {
             var fileWriter = new FileWriter();
+
+            string text = System.IO.File.ReadAllText(@"../test.txt");
+
+            text.Should().Be("PICKLERICK");
         }
     }
 }

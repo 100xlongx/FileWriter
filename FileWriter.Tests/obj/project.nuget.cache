@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PU/vCZajLOx1IfFd73HakyM7x5j3NXDZnVVp89kFxdWUznWzJqY7lF9Gaug/TQBxIMPZBSmR4DNixJsPrxNJ8g==",
+  "dgSpecHash": "tR71Eoc6/LUvzh0DY/xVB8wqlFYq+9RwaLxqPtR3xRBMqlUSgEqRf6BooPFch7HH2xBFd2/9D7/sMuzC8rYiAg==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Lntinfotech\\galvanize\\FileWriter\\FileWriter.Tests\\FileWriter.Tests.csproj",
+  "projectFilePath": "C:\\Users\\Lntinfotech\\galvanize\\FileWriter\\FileWriter.Tests\\FileWriter.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lntinfotech\\.nuget\\packages\\coverlet.collector\\1.3.0\\coverlet.collector.1.3.0.nupkg.sha512",
     "C:\\Users\\Lntinfotech\\.nuget\\packages\\fluentassertions\\5.10.3\\fluentassertions.5.10.3.nupkg.sha512",

@@ -102,3 +102,5 @@ c:\Users\Lntinfotech\galvanize\FileWriter\FileWriter.Tests\obj\Debug\net5.0\File
 c:\Users\Lntinfotech\galvanize\FileWriter\FileWriter.Tests\obj\Debug\net5.0\ref\FileWriter.Tests.dll
 c:\Users\Lntinfotech\galvanize\FileWriter\FileWriter.Tests\obj\Debug\net5.0\FileWriter.Tests.pdb
 c:\Users\Lntinfotech\galvanize\FileWriter\FileWriter.Tests\obj\Debug\net5.0\FileWriter.Tests.genruntimeconfig.cache
+c:\Users\Lntinfotech\galvanize\FileWriter\FileWriter.Tests\bin\Debug\net5.0\FileWriter.App.dll
+c:\Users\Lntinfotech\galvanize\FileWriter\FileWriter.Tests\bin\Debug\net5.0\FileWriter.App.pdb

@@ -1687,6 +1687,16 @@
         "build": {
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
+      },
+      "FileWriter.App/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/FileWriter.App.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FileWriter.App.dll": {}
+        }
       }
     }
   },
@@ -5748,10 +5758,16 @@
         "xunit.runner.visualstudio.2.4.3.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "FileWriter.App/1.0.0": {
+      "type": "project",
+      "path": "../FileWriter.App/FileWriter.App.csproj",
+      "msbuildProject": "../FileWriter.App/FileWriter.App.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "FileWriter.App >= 1.0.0",
       "FluentAssertions >= 5.10.3",
       "Microsoft.NET.Test.Sdk >= 16.7.1",
       "coverlet.collector >= 1.3.0",
@@ -5783,7 +5799,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Lntinfotech\\galvanize\\FileWriter\\FileWriter.App\\FileWriter.App.csproj": {
+              "projectPath": "C:\\Users\\Lntinfotech\\galvanize\\FileWriter\\FileWriter.App\\FileWriter.App.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

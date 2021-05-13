@@ -1,0 +1,12 @@
+c:\Users\Lntinfotech\galvanize\FileWriter\FileWriter.App\bin\Debug\net5.0\FileWriter.App.deps.json
+c:\Users\Lntinfotech\galvanize\FileWriter\FileWriter.App\bin\Debug\net5.0\FileWriter.App.dll
+c:\Users\Lntinfotech\galvanize\FileWriter\FileWriter.App\bin\Debug\net5.0\ref\FileWriter.App.dll
+c:\Users\Lntinfotech\galvanize\FileWriter\FileWriter.App\bin\Debug\net5.0\FileWriter.App.pdb
+c:\Users\Lntinfotech\galvanize\FileWriter\FileWriter.App\obj\Debug\net5.0\FileWriter.App.csprojAssemblyReference.cache
+c:\Users\Lntinfotech\galvanize\FileWriter\FileWriter.App\obj\Debug\net5.0\FileWriter.App.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Lntinfotech\galvanize\FileWriter\FileWriter.App\obj\Debug\net5.0\FileWriter.App.AssemblyInfoInputs.cache
+c:\Users\Lntinfotech\galvanize\FileWriter\FileWriter.App\obj\Debug\net5.0\FileWriter.App.AssemblyInfo.cs
+c:\Users\Lntinfotech\galvanize\FileWriter\FileWriter.App\obj\Debug\net5.0\FileWriter.App.csproj.CoreCompileInputs.cache
+c:\Users\Lntinfotech\galvanize\FileWriter\FileWriter.App\obj\Debug\net5.0\FileWriter.App.dll
+c:\Users\Lntinfotech\galvanize\FileWriter\FileWriter.App\obj\Debug\net5.0\ref\FileWriter.App.dll
+c:\Users\Lntinfotech\galvanize\FileWriter\FileWriter.App\obj\Debug\net5.0\FileWriter.App.pdb
