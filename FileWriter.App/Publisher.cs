@@ -1,6 +1,7 @@
 using System;
 
-namespace FileWriterEvents.App {
+namespace FileWriterEvents.App
+{
     public class Publisher
     {
         // Declare the event using EventHandler<T>
