@@ -8,13 +8,25 @@ namespace FileWriterEvents.Tests
     public class UnitTest1
     {
         [Fact]
-        public void Test1()
+        public void FileWriterWritesToTestFile()
         {
+            //Given
             var fileWriter = new FileWriter();
-
+            //When
             string text = System.IO.File.ReadAllText(@"../test.txt");
-
+            //Then
             text.Should().Be("PICKLERICK");
+        }
+
+        [Fact]
+        public void TestName()
+        {
+        //Given
+        var fileWriter = new FileWriter();
+        //When
+        string text = System.IO.File.ReadAllText(@"../test.txt");
+        //Then
+        text.Should().Be("PICKLERICK");
         }
     }
 }
