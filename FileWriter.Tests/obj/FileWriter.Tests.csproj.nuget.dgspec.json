@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lntinfotech\\galvanize\\FileWriter\\FileWriter.Tests\\FileWriter.Tests.csproj": {}
+    "C:\\Users\\Lntinfotech\\Documents\\DotNet\\Raaedk_DotNetEvents\\filewriter\\FileWriter.Tests\\FileWriter.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lntinfotech\\galvanize\\FileWriter\\FileWriter.App\\FileWriter.App.csproj": {
+    "C:\\Users\\Lntinfotech\\Documents\\DotNet\\Raaedk_DotNetEvents\\filewriter\\FileWriter.App\\FileWriter.App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lntinfotech\\galvanize\\FileWriter\\FileWriter.App\\FileWriter.App.csproj",
+        "projectUniqueName": "C:\\Users\\Lntinfotech\\Documents\\DotNet\\Raaedk_DotNetEvents\\filewriter\\FileWriter.App\\FileWriter.App.csproj",
         "projectName": "FileWriter.App",
-        "projectPath": "C:\\Users\\Lntinfotech\\galvanize\\FileWriter\\FileWriter.App\\FileWriter.App.csproj",
+        "projectPath": "C:\\Users\\Lntinfotech\\Documents\\DotNet\\Raaedk_DotNetEvents\\filewriter\\FileWriter.App\\FileWriter.App.csproj",
         "packagesPath": "C:\\Users\\Lntinfotech\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lntinfotech\\galvanize\\FileWriter\\FileWriter.App\\obj\\",
+        "outputPath": "C:\\Users\\Lntinfotech\\Documents\\DotNet\\Raaedk_DotNetEvents\\filewriter\\FileWriter.App\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lntinfotech\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -56,14 +56,14 @@
         }
       }
     },
-    "C:\\Users\\Lntinfotech\\galvanize\\FileWriter\\FileWriter.Tests\\FileWriter.Tests.csproj": {
+    "C:\\Users\\Lntinfotech\\Documents\\DotNet\\Raaedk_DotNetEvents\\filewriter\\FileWriter.Tests\\FileWriter.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lntinfotech\\galvanize\\FileWriter\\FileWriter.Tests\\FileWriter.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\Lntinfotech\\Documents\\DotNet\\Raaedk_DotNetEvents\\filewriter\\FileWriter.Tests\\FileWriter.Tests.csproj",
         "projectName": "FileWriter.Tests",
-        "projectPath": "C:\\Users\\Lntinfotech\\galvanize\\FileWriter\\FileWriter.Tests\\FileWriter.Tests.csproj",
+        "projectPath": "C:\\Users\\Lntinfotech\\Documents\\DotNet\\Raaedk_DotNetEvents\\filewriter\\FileWriter.Tests\\FileWriter.Tests.csproj",
         "packagesPath": "C:\\Users\\Lntinfotech\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lntinfotech\\galvanize\\FileWriter\\FileWriter.Tests\\obj\\",
+        "outputPath": "C:\\Users\\Lntinfotech\\Documents\\DotNet\\Raaedk_DotNetEvents\\filewriter\\FileWriter.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lntinfotech\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -78,8 +78,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Lntinfotech\\galvanize\\FileWriter\\FileWriter.App\\FileWriter.App.csproj": {
-                "projectPath": "C:\\Users\\Lntinfotech\\galvanize\\FileWriter\\FileWriter.App\\FileWriter.App.csproj"
+              "C:\\Users\\Lntinfotech\\Documents\\DotNet\\Raaedk_DotNetEvents\\filewriter\\FileWriter.App\\FileWriter.App.csproj": {
+                "projectPath": "C:\\Users\\Lntinfotech\\Documents\\DotNet\\Raaedk_DotNetEvents\\filewriter\\FileWriter.App\\FileWriter.App.csproj"
               }
             }
           }

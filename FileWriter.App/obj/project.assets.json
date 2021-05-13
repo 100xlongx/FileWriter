@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lntinfotech\\galvanize\\FileWriter\\FileWriter.App\\FileWriter.App.csproj",
+      "projectUniqueName": "C:\\Users\\Lntinfotech\\Documents\\DotNet\\Raaedk_DotNetEvents\\filewriter\\FileWriter.App\\FileWriter.App.csproj",
       "projectName": "FileWriter.App",
-      "projectPath": "C:\\Users\\Lntinfotech\\galvanize\\FileWriter\\FileWriter.App\\FileWriter.App.csproj",
+      "projectPath": "C:\\Users\\Lntinfotech\\Documents\\DotNet\\Raaedk_DotNetEvents\\filewriter\\FileWriter.App\\FileWriter.App.csproj",
       "packagesPath": "C:\\Users\\Lntinfotech\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lntinfotech\\galvanize\\FileWriter\\FileWriter.App\\obj\\",
+      "outputPath": "C:\\Users\\Lntinfotech\\Documents\\DotNet\\Raaedk_DotNetEvents\\filewriter\\FileWriter.App\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Lntinfotech\\AppData\\Roaming\\NuGet\\NuGet.Config"
