@@ -9,7 +9,7 @@ namespace FileWriterEvents.Tests
         [Fact]
         public void Should_CreateNewCustomEventArgs_BeMessage()
         {
-            var cust = new CustomEventArgs("message");
+            var cust = new FileWriteComplete("message");
 
             cust.Message.Should().Be("message");
         }

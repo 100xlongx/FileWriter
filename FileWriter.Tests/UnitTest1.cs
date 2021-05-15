@@ -23,6 +23,7 @@ namespace FileWriterEvents.Tests
         {
             //Given
             var pub = new Publisher();
+            
             var fileWriter = new FileWriter("test.txt", pub);
             //When
             var text = File.ReadAllText(@"../test.txt");
@@ -47,14 +48,14 @@ namespace FileWriterEvents.Tests
         {
             //Given
             Publisher pub = new Publisher();
-            CustomEventArgs e = new CustomEventArgs("message");
+            FileWriteComplete e = new FileWriteComplete("message");
             //When
            // pub.RaiseCustomEvent += new EventHandler<CustomEventArgs>(this, e);
 
             //Then
             using(var monitoredSubject = pub.Monitor())
             {
-                pub.DoSomething();
+                pub.RaiseEvent();
                 monitoredSubject.Should().Raise("RaiseCustomEvent");
             }
         }
