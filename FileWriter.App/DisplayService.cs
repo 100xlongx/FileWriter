@@ -1,7 +1,6 @@
 ﻿using System;
-using FileWriter.App;
 
-namespace ConsoleApp1
+namespace FileWriter.App
 {
     //Subscriber
     public class DisplayService
@@ -15,9 +14,14 @@ namespace ConsoleApp1
             pub.RaiseCustomEvent += HandleCustomEvent;
         }
 
+        public string Id()
+        {
+            return _id;
+        }
+
         private void HandleCustomEvent(object sender, FileWriteComplete e)
         {
-            Console.WriteLine("File Write Completed");
+            Console.WriteLine($"{_id} File Write Completed");
         }
     }
 }

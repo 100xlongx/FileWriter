@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileWriter.App", "FileWrite
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{0EBECD79-5488-4AB4-9452-1A799917FACF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileWriter.Tests", "FileWriter.Tests\FileWriter.Tests.csproj", "{C3E62B80-9A79-4E44-A8DB-F0110E686644}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +46,17 @@ Global
 		{0EBECD79-5488-4AB4-9452-1A799917FACF}.Release|x64.Build.0 = Release|Any CPU
 		{0EBECD79-5488-4AB4-9452-1A799917FACF}.Release|x86.ActiveCfg = Release|Any CPU
 		{0EBECD79-5488-4AB4-9452-1A799917FACF}.Release|x86.Build.0 = Release|Any CPU
+		{C3E62B80-9A79-4E44-A8DB-F0110E686644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3E62B80-9A79-4E44-A8DB-F0110E686644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3E62B80-9A79-4E44-A8DB-F0110E686644}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C3E62B80-9A79-4E44-A8DB-F0110E686644}.Debug|x64.Build.0 = Debug|Any CPU
+		{C3E62B80-9A79-4E44-A8DB-F0110E686644}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C3E62B80-9A79-4E44-A8DB-F0110E686644}.Debug|x86.Build.0 = Debug|Any CPU
+		{C3E62B80-9A79-4E44-A8DB-F0110E686644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3E62B80-9A79-4E44-A8DB-F0110E686644}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3E62B80-9A79-4E44-A8DB-F0110E686644}.Release|x64.ActiveCfg = Release|Any CPU
+		{C3E62B80-9A79-4E44-A8DB-F0110E686644}.Release|x64.Build.0 = Release|Any CPU
+		{C3E62B80-9A79-4E44-A8DB-F0110E686644}.Release|x86.ActiveCfg = Release|Any CPU
+		{C3E62B80-9A79-4E44-A8DB-F0110E686644}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

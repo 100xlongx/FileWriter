@@ -1,8 +1,8 @@
-using FileWriterEvents.App;
+using FileWriter.App;
 using FluentAssertions;
 using Xunit;
 
-namespace FileWriterEvents.Tests
+namespace FileWriter.Tests
 {
     public class CustomEventArgs_Tests
     {

@@ -1,10 +1,10 @@
-using System;
 using System.IO;
-using FileWriterEvents.App;
+using FileWriter.App;
 using FluentAssertions;
+using FluentAssertions.Events;
 using Xunit;
 
-namespace FileWriterEvents.Tests
+namespace FileWriter.Tests
 {
     public class UnitTest1
     {
@@ -12,7 +12,7 @@ namespace FileWriterEvents.Tests
         public void Should_CreateNewFileWriter_FileNameShouldBeTest()
         {
             var pub = new Publisher();
-            var fileWriter = new FileWriter("test", pub);
+            var fileWriter = new FileWriters("test", pub);
 
             fileWriter.FileName.Should().NotBeNull();
             fileWriter.FileName.Should().Be("test");
@@ -23,42 +23,27 @@ namespace FileWriterEvents.Tests
         {
             //Given
             var pub = new Publisher();
-            
-            var fileWriter = new FileWriter("test.txt", pub);
-            //When
-            var text = File.ReadAllText(@"../test.txt");
-            //Then
-            text.Should().Be("PICKLERICK");
-        }
 
-        // [Fact]
-        // public void Should_WriteTextToFile_BePICKLERICK()
-        // {
-        //     //Given
-        //     var pub = new Publisher();
-        //     var fileWriter = new FileWriter("test.txt", pub);
-        //     //When
-        //     string text = System.IO.File.ReadAllText(@"../test.txt");
-        //     //Then
-        //     text.Should().Contain("PICKLERICK");
-        // }
+            var fileWriter = new FileWriters("test.txt", pub);
+            //When
+            var text = File.ReadAllText(@"../../../../text.txt");
+            //Then
+            text.Should().NotBeEmpty();
+        }
 
         [Fact]
         public void Event_ShouldBeRaised_WhenDoSomethingIsCalled()
         {
             //Given
-            Publisher pub = new Publisher();
-            FileWriteComplete e = new FileWriteComplete("message");
+            var pub = new Publisher();
+            var sub = new FileWriters("text", pub);
             //When
-           // pub.RaiseCustomEvent += new EventHandler<CustomEventArgs>(this, e);
-
             //Then
-            using(var monitoredSubject = pub.Monitor())
+            using (IMonitor<Publisher> monitoredSubject = pub.Monitor())
             {
-                pub.RaiseEvent();
+                pub.RaiseInsertMessageEvent("This Is Message");
                 monitoredSubject.Should().Raise("RaiseCustomEvent");
             }
         }
-        
     }
 }

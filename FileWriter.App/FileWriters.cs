@@ -5,11 +5,11 @@ namespace FileWriter.App
 {
     public class FileWriters
     {
-        private readonly string _fileName;
+        public readonly string FileName;
 
         public FileWriters(string fileName, Publisher pub)
         {
-            _fileName = fileName;
+            FileName = fileName;
 
             // Subscribe to the event
             pub.RaiseCustomEvent += HandleCustomEvent;
@@ -17,10 +17,10 @@ namespace FileWriter.App
 
         private void HandleCustomEvent(object sender, FileWriteComplete e)
         {
-            File.AppendAllText(@"../../../../text.txt",
-                $"Wrote PICKLE RICK to {_fileName}: {e.Message}\n");
+            File.AppendAllText($"../../../../{FileName}.txt",
+                $"Wrote PICKLE RICK to {FileName}: {e.Message}\n");
 
-            Console.WriteLine($"Wrote PICKLE RICK to {_fileName}: {e.Message}");
+            Console.WriteLine($"Wrote PICKLE RICK to {FileName}: {e.Message}");
         }
     }
 }
