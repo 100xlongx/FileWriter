@@ -4,7 +4,7 @@ using Xunit;
 
 namespace FileWriter.Tests
 {
-    public class DisplayService_Tests
+    public class DisplayServiceTests
     {
         [Theory]
         [InlineData("id1")]
@@ -13,11 +13,11 @@ namespace FileWriter.Tests
         public void DisplayService_ShouldSetId_WhenConstructed(string id)
         {
             //Given
-            var pub = new Publisher();
+            var pub = new FileWriters();
             var service = new DisplayService(id, pub);
 
             //When
-            pub.RaiseInsertMessageEvent("Message");
+            pub.RaiseInsertMessageEvent("Message","file");
             //Then
             service.Id().Should().Be(id);
         }

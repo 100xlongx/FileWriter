@@ -4,7 +4,7 @@ using Xunit;
 
 namespace FileWriter.Tests
 {
-    public class CustomEventArgs_Tests
+    public class CustomEventArgsTests
     {
         [Fact]
         public void Should_CreateNewCustomEventArgs_BeMessage()
