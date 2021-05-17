@@ -22,3 +22,15 @@ C:\Users\Lntinfotech\Documents\DotNet\Raaedk_DotNetEvents\filewriter\FileWriter.
 C:\Users\Lntinfotech\Documents\DotNet\Raaedk_DotNetEvents\filewriter\FileWriter.App\obj\Debug\net5.0\FileWriter.App.dll
 C:\Users\Lntinfotech\Documents\DotNet\Raaedk_DotNetEvents\filewriter\FileWriter.App\obj\Debug\net5.0\ref\FileWriter.App.dll
 C:\Users\Lntinfotech\Documents\DotNet\Raaedk_DotNetEvents\filewriter\FileWriter.App\obj\Debug\net5.0\FileWriter.App.pdb
+D:\RiderProjects\FileWriter\FileWriter.App\bin\Debug\net5.0\FileWriter.App.deps.json
+D:\RiderProjects\FileWriter\FileWriter.App\bin\Debug\net5.0\FileWriter.App.dll
+D:\RiderProjects\FileWriter\FileWriter.App\bin\Debug\net5.0\ref\FileWriter.App.dll
+D:\RiderProjects\FileWriter\FileWriter.App\bin\Debug\net5.0\FileWriter.App.pdb
+D:\RiderProjects\FileWriter\FileWriter.App\obj\Debug\net5.0\FileWriter.App.csprojAssemblyReference.cache
+D:\RiderProjects\FileWriter\FileWriter.App\obj\Debug\net5.0\FileWriter.App.GeneratedMSBuildEditorConfig.editorconfig
+D:\RiderProjects\FileWriter\FileWriter.App\obj\Debug\net5.0\FileWriter.App.AssemblyInfoInputs.cache
+D:\RiderProjects\FileWriter\FileWriter.App\obj\Debug\net5.0\FileWriter.App.AssemblyInfo.cs
+D:\RiderProjects\FileWriter\FileWriter.App\obj\Debug\net5.0\FileWriter.App.csproj.CoreCompileInputs.cache
+D:\RiderProjects\FileWriter\FileWriter.App\obj\Debug\net5.0\FileWriter.App.dll
+D:\RiderProjects\FileWriter\FileWriter.App\obj\Debug\net5.0\ref\FileWriter.App.dll
+D:\RiderProjects\FileWriter\FileWriter.App\obj\Debug\net5.0\FileWriter.App.pdb
