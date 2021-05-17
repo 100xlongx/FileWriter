@@ -9,22 +9,13 @@ namespace FileWriter.Tests
     public class UnitTest1
     {
         [Fact]
-        public void Should_CreateNewFileWriter_FileNameShouldBeTest()
-        {
-            var pub = new Publisher();
-            var fileWriter = new FileWriters("test", pub);
-
-            fileWriter.FileName.Should().NotBeNull();
-            fileWriter.FileName.Should().Be("test");
-        }
-
-        [Fact]
         public void FileWriterWritesToTestFile()
         {
             //Given
-            var pub = new Publisher();
-
-            var fileWriter = new FileWriters("test.txt", pub);
+            var pub = new FileWriters();
+            var sub = new DisplayService("id",pub);
+            pub.RaiseInsertMessageEvent("This is Message","text");
+            
             //When
             var text = File.ReadAllText(@"../../../../text.txt");
             //Then
@@ -35,13 +26,12 @@ namespace FileWriter.Tests
         public void Event_ShouldBeRaised_WhenDoSomethingIsCalled()
         {
             //Given
-            var pub = new Publisher();
-            var sub = new FileWriters("text", pub);
+            var pub = new FileWriters();
             //When
             //Then
-            using (IMonitor<Publisher> monitoredSubject = pub.Monitor())
+            using (IMonitor<FileWriters> monitoredSubject = pub.Monitor())
             {
-                pub.RaiseInsertMessageEvent("This Is Message");
+                pub.RaiseInsertMessageEvent("This Is Message","text");
                 monitoredSubject.Should().Raise("RaiseCustomEvent");
             }
         }

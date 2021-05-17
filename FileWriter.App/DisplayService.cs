@@ -7,7 +7,7 @@ namespace FileWriter.App
     {
         private readonly string _id;
 
-        public DisplayService(string id, Publisher pub)
+        public DisplayService(string id, FileWriters pub)
         {
             _id = id;
 
@@ -21,7 +21,7 @@ namespace FileWriter.App
 
         private void HandleCustomEvent(object sender, FileWriteComplete e)
         {
-            Console.WriteLine($"{_id} File Write Completed");
+            Console.WriteLine($"User ID:{_id} File Write Completed");
         }
     }
 }
